@@ -1,0 +1,28 @@
+div(class='table-responsive')
+  table(class='table')
+      tr
+        th Maskapai Pesawat
+        th Tujuan
+        th Jam Berangkat
+        th Harga
+        th Status Tiket
+        th Cek Detail
+      tr(ng-repeat='message in messages')
+        td 
+          h4 {{message.id}}
+        td 
+          div {{message.tujuan}}
+        td 
+          div {{message.avail}}
+        td 
+          div {{message.harga}}
+        td
+          div Tersedia
+        td 
+          a(type='button', class='btn btn-info', href='buyTicket/{{message._id}}') Cek
+
+div(ng-show='messages == null') Data sedang di-load... Harap tunggu...
+
+div(ng-show='messages != null')
+  div(ng-show='fresh') Cache baru saja diperbaharui
+  div(ng-show='!fresh') Data ini diambil dari Cache

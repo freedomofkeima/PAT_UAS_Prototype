@@ -1,0 +1,19 @@
+h3 Informasi Pemesanan
+
+  h4 Kode Tiket : {{_id}}
+
+  h4 Status Tiket : Tersedia
+
+h3 Informasi Pembeli
+
+form
+  div(class='form-group')
+    label(for='nama') Nama Pemesan: 
+    input(ng-model='form.nama', name='nama', class='form-control')
+  div(class='form-group')
+    label(for='kartu') Nomor Kartu Kredit:
+    input(ng-model='form.kartu', name='kartu', class='form-control')
+  p
+    button(ng-click='buyTicket()', type='submit', class='btn btn-default') Beli
+
+p Pada sistem real, sistem ini akan menyimpan informasi pengguna di MongoDB sehingga pengguna tidak perlu lagi memasukkan detail informasi

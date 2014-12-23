@@ -1,0 +1,138 @@
+/**
+  *
+  * Main stylesheet 
+  *
+  */
+
+/* @section forms */
+.btn.cancel { margin-left: 0.5rem; }
+.nowrap { white-space: nowrap; }
+
+/* Your customizations here */
+
+div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+th {
+    text-align: center;
+}
+
+.det {
+    width: 250px;
+}
+
+.thick {
+    font-weight: bold;
+}
+
+.title {
+    width: 250px;
+}
+
+.footnote {
+    font-style: italic;
+    font-size: 11px;
+}
+
+html,body,.container {
+    height: 90%;
+    min-width: 1024px;
+}
+
+body>.container {
+    height: auto;
+    min-height: 100%;
+}
+
+.alert-error {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+
+.navbar {
+    margin-top: 0px;
+    height: auto;
+}
+
+.socials {
+    margin-left: 10px;
+}
+
+/* layout */
+#sidebar {
+    float: left;
+    width: 23%;
+    margin-right: 2%;
+}
+
+#content-wrap {
+    float: right;
+    width: 75%;
+}
+
+
+#body_content h3 {
+    font-size: 50px;
+    line-height: 40px;
+    color: #012345;
+    margin-left: 10px;
+    font-family : Candara;
+}
+
+#title_image {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.form_marker {
+    font-size: 25px;
+    color: #012345;
+    font-family : Candara;
+    background-color:#dadfdf;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+/** Footer section */
+.bs-docs-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    color: #777;
+    text-align: center;
+    border-top: 1px solid #e5e5e5
+}
+
+#footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 7em;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/** Font face */
+@font-face {
+        font-family: 'Candara';
+        src: url('../fonts/candara.eot');
+        src: url('../fonts/candara.eot?#iefix') format('embedded-opentype'),
+                    url('../fonts/candara.woff') format('woff'),
+                    url('../fonts/candara.ttf') format('truetype'),
+                    url('../fonts/candara.svg#candara') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
