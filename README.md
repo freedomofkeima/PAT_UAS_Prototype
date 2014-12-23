@@ -14,6 +14,11 @@ By: Iskandar Setiadi (freedomofkeima) / 13511073
 
 - MongoDB as Database Layer (not implemented -> not required at this point)
 
+
+## System Architecture
+
+![System Architecture](https://raw.githubusercontent.com/freedomofkeima/PAT_UAS_Prototype/master/architecture.png)
+
 ##How to Run 
 
 Please access src/ directory for all of these operations.
